@@ -1,0 +1,188 @@
+@media (max-width:800px) {
+    .innerHomePage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homeimageContainer {
+        width: 150px;
+        height: 150px;
+        order: 1;
+    }
+
+    .homeCard {
+        order: 2;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottom-section {
+    padding-top: 50px;
+    min-height: 100vh;
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*gsAW5P7GRrh2R2lzfJDbQg.jpeg');
+    background-size: cover;
+}
+
+.homeimageContainer {
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.home-bg-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.homeCard {
+    color: #fff;
+    font-family: Serif;
+    padding: 0px 20px;
+}
+
+.innerHomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.homeProfilePhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.skillsBgContainer {
+    padding: 30px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.skillsMainheading {
+    color: #183b56;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skillsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 200px;
+    box-shadow: 2px 3px #fff;
+    margin: 13px 15px;
+}
+
+.skillImage {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.skillheading {
+    font-family: Roboto;
+    padding: 2px;
+    font-size: 20px;
+    color: #183b56;
+    font-weight: bold;
+}
+
+.skilldescription {
+    font-family: Roboto;
+    padding: 2px;
+    color: #5a7184;
+    font-size: 15px;
+    text-align: center;
+}
+
+.homeCard {
+    max-width: 400px;
+    text-align: center;
+}
+
+.projectSectionBgContainer {
+    min-height: 90vh;
+    background-color: #3e4c59;
+}
+
+.projectHeading {
+    color: #cced00;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projectHeading1 {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.projectCard {
+    background-color: #323f4b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.projectCardImage {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.projectCardHeading1 {
+    color: #9aa5b1;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.projectCardHeading2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.projectCardDesc {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.projectCardanchor {
+    color: #cced00;
+    font-weight: 500;
+}
+
+.projectCardDesContainer {
+    padding: 20px;
+}
