@@ -1,4 +1,4 @@
-@media (max-width:900) {
+@media (max-width:1200px) {
     .innerHomePage {
         display: flex;
         flex-direction: column;
