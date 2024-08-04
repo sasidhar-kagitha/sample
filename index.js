@@ -28,7 +28,7 @@ let home = () => {
 
     let imageElement = document.createElement("img");
     imageElement.classList.add("homeProfilePhoto");
-    imageElement.src = "https://res.cloudinary.com/dxmv32l6y/image/upload/v1710269268/veli2if6jszwzfewmbej.jpg";
+    imageElement.src = "https://res.cloudinary.com/dxmv32l6y/image/upload/v1722739707/Pi7_Passport_Photo_1_rz38vi.jpg";
 
 
     imageElementContainer.appendChild(imageElement);
